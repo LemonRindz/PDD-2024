@@ -34,11 +34,11 @@ operation = float(input("Enter Operation Number: "))
 if operation == 1:
         print(f'The sum of {num1} and {num2} is: {add(num1, num2)}')
 elif operation == 2:
-        print(f'The difference of the subtraction is: {subtract(num1, num2)}')
+        print(f'The difference of {num1} and {num2} is: {subtract(num1, num2)}')
 elif operation == 3:
-        print(f'The multiple of {num1}: {multiply(num1, num2)}')
+        print(f'The multiple of {num1} and {num2} is: {multiply(num1, num2)}')
 elif operation == 4:
-        print(f'The result of the division is: {divide(num1, num2)}')
-#Print an error message if argument passes
+        print(f'The diviend of {num1} and {num2} is: {divide(num1, num2)}')
+#Print an error message if the argument passes
 else:
       print('Invalid Operation Number')
