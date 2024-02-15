@@ -1,32 +1,36 @@
 #Imani Hollie 02/14/2024
 #This is a simulated calculator
 
-#For inputs, ask for which function needs to be called
+#Define the addition, subtraction, multiplication,
+#and division functions
 def add(a, b):
     return a + b
 def subtract(a, b):
     return a - b
 def multiply(a, b):
     return a * b
+#Set an error message when either a or b = 0
 def divide(a, b):
     if a == 0:
-        return 'Cannot divide by zero!'
+        return 'ERROR! Cannot divide by Zero!'
     elif b == 0:
-        return 'Cannot divide by zero!'
+        return 'ERROR! Cannot Divide by Zero!'
     else:
         return a / b
 
+#For inputs,  prompt for the two numbers
 num1 = float(input('Enter First Number:'))
 num2 = float(input('Enter Second Number:'))
-
+#Print available operations
 print('Available Operations:')
 print('1 - Add')
 print('2 - Subtract')
 print('3 - Multiply')
 print('4 - Divide')
-
+#For input, prompt for operation number
 operation = float(input("Enter Operation Number: "))
 
+#Use an IF-THEN-ELSE structure for calculations
 if operation == 1:
         print(f'The sum of {num1} and {num2} is: {add(num1, num2)}')
 elif operation == 2:
