@@ -1,7 +1,7 @@
 #Imani Hollie 03/06/2024
 #Ch. 8 Arrays
 
-#Lists
+#**Lists*b
 #In Python, you create lists instead of arrays, which is similar to, but more
 #capable than the traditonal array. A list is a an object that contains multiple
 #data items. Each item stored in a list is called an element. Objects enclosed in
